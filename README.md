@@ -1,4 +1,4 @@
-# Website_Dinamis
+# Website Dinamis
 
 ## Home
 ![Home](assets/images/Home.png)
