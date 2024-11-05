@@ -1,13 +1,14 @@
 # Website Dinamis
 
 ## Home
-![Home](assets/images/Home.png)
+![Home](assets/images/Home1.png)
+![Home](assets/images/Home2.png)
 
 ## About
 ![About](assets/images/About.png)
 
 ## Contact
-![Contact](assets/images/Contact.png)
+![Contact](assets/images/Kontak.png)
 
 ## Datatables
 ![Datatables](assets/images/Datatables.png)
