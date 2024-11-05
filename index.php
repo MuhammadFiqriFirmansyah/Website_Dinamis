@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <h1 class="text-center p-3">Website Dinamis</h1>
+        <h1 class="text-center p-3">Baemon World</h1>
     </header>
     <!-- menu -->
     <?php include "includes/navbar.php" ?>
@@ -26,7 +26,7 @@
     <!-- ./konten -->
     <footer>
         <div class="fixed-bottom text-bg-dark p-3 text-center mt-5 bg-info">
-            Muhammad Fiqri Firmansyah @ <?= date("Y") ?>
+            kiimonz @ <?= date("Y") ?>
         </div>
     </footer>
     <script src="assets/jquery/jquery-3.7.1.js"></script>

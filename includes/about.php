@@ -1,7 +1,57 @@
-<!-- Portfolio Section -->
-<section id="portfolio" class="container py-5">
-    <h2 class="text-center mb-4">About Me</h2>
-    <div class="row">
+<!DOCTYPE html>
+<html lang="id">
 
-    </div>
-</section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container py-5">
+        <h2 class="text-center mb-4">Baemon Info</h2>
+        <div class="row">
+            <?php
+            // Array proyek dengan data dinamis
+            $projects = [
+                [
+                    "title" => "Profil Babymonster",
+                    "image" => "assets/images/drip.jpg",
+                    "description" => "Situs Resmi YG Entertainment",
+                    "link" => "https://ygfamily.com/ko/artists/babymonster/profile"
+                ],
+
+                [
+                    "title" => "Merchandise",
+                    "image" => "assets/images/merch.jpg",
+                    "description" => "1st Full Album [DRIP] YG Select",
+                    "link" => "https://shop.weverse.io/en/shop/GL_KRW/artists/172"
+                ],
+            ];
+
+            // Menampilkan setiap proyek dalam array
+            foreach ($projects as $project) {
+                echo '
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="' . $project["image"] . '" class="card-img-top" alt="' . $project["title"] . '">
+                        <div class="card-body">
+                            <h5 class="card-title">' . $project["title"] . '</h5>
+                            <p class="card-text">' . $project["description"] . '</p>
+                            <a href="' . $project["link"] . '" class="btn btn-info" target="_blank">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>';
+            }
+            ?>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
