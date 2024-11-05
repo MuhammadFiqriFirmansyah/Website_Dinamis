@@ -7,8 +7,8 @@
 ## About
 ![About](assets/images/About.png)
 
-## Contact
-![Contact](assets/images/Kontak.png)
+## Kontak
+![Kontak](assets/images/Kontak.png)
 
 ## Datatables
 ![Datatables](assets/images/Datatables.png)
